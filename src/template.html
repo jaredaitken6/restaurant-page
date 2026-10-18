@@ -7,11 +7,11 @@
 </head>
 <body>
     <header>
-        <div id="header-logo">
-            <svg>
-            <span id="logo-title">Cafe</span>
-        </div>
-        <nav>
+        <a href="/" id="header-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><g fill="none" stroke="#C08552" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M11 7c4.418 0 8 .895 8 2s-3.582 2-8 2-8-.895-8-2c0-.357.375-.693 1.033-.984"/><path d="M3 9v9.343c0 1.061.44 2.08 1.409 2.513C5.624 21.399 7.711 22 11 22s5.377-.601 6.591-1.144c.968-.433 1.409-1.452 1.409-2.513V9m0 1a3 3 0 0 1 3 3 3 3 0 0 1-3 3M7 3v4m4-5v2m4 0v3"/></g></svg>
+            <span id="logo-title">Café</span>
+        </a>
+        <nav id="header-buttons">
             <button>Home</button>
             <button>Menu</button>
             <button>About</button>
@@ -19,13 +19,72 @@
             <button>Order Now</button>
         </nav>
     </header>
-    <!-- test image -->
-    <img src="./imgs/testImage.png" />
+
+    <!-- test image
+    <img src="./imgs/testImage.png" /> -->
     <!-- test image -->
     <div id="content">
-        <!-- mobile first -->
-    
 
+
+        <!-- mobile first -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Café</h1>
+            <p class="hero-subtitle">Let's Make Your Next Sip Memorable</p>
+            <button class="btn-primary">Order Now</button>
+        </div>
+    </section>
+    <section class="join-socials">
+        <div>
+            <h3>Join Our Socials</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusamus quas nam corrupti. Quam, et!</p>
+            <button><svg></svg>Follow @asdfas</button>
+            <button><svg></svg>Share Your Experience</button>
+        </div>
+    </section>
+    <section class="online-orders">
+        <div class="quick-order-form">
+            <h2>Quick Order</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <button><svg>Dm us on Instagram</button>
+            <div class="cafe-hours">
+                <h2>Operating Hours</h2>
+                <svg>
+                <p>Weekends Only</p>
+                <svg>
+                <p>Check out our social media for current hours</p>
+            </div>
+        </div>
+        <div>
+            <h2>Order Form</h2>
+            <form action="" method="POST">
+        
+                <div>
+                    <label for="fullName">Name *</label>
+                    <input type="text" id="fullName" placeholder="Jane Doe" required>
+                </div>
+
+                <div>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" placeholder="jane@example.com" required>
+                </div>
+
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us about your favorite peachy treat..." required></textarea>
+                </div>
+
+                <div>
+                    <label for="eventDate">Preferred Pickup Date & Time *</label>
+                    <input type="date" id="eventDate" name="eventDate" required>
+                </div>
+
+                <button type="submit" class="order-form-button">Submit Order</button>
+            
+            </form>
+        </div>
+    </section>
+    
     </div>
 
     <footer>
