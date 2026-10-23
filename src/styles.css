@@ -180,6 +180,10 @@ body {
     background-color: #FFF8F0;
 }
 
+#content {
+    padding-bottom: 5rem;
+}
+
 header {
     display: flex;
     background-color: #FFF8F0;
@@ -568,6 +572,163 @@ header {
 .order-form form {
     width: 100%;
 }
+
+/* footer styles */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 6rem 2rem 6rem;
+    background-color: #4B2E2B;
+    color: #FFF8F0;
+}
+
+.top-footer-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+#footer-logo > svg {
+    width: 60px;  
+    height: 60px;
+}
+
+.left-footer-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.left-footer-section div, .left-footer-section p {
+    margin-bottom: 1rem;
+}
+
+.social-links svg {
+    width: 40px;  
+    height: 40px;
+}
+
+#footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+#footer-logo-title {
+    font-family: 'SweetLove', sans-serif;
+    font-size: clamp(1.75rem, 1.42rem + 1.64vw, 3rem);
+    color: #FFF8F0;
+    line-height: 0.9;
+}
+
+.left-footer-section p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: clamp(1rem, 0.9rem + 0.49vw, 1.375rem);
+    color: #FFF8F0;
+}
+
+.instagram-background {
+    width: fit-content;
+    background-color: #C08552;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.middle-footer-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#middle-footer-title h3 {
+    font-family: 'SweetLove', sans-serif;
+    font-size: clamp(1.75rem, 1.42rem + 1.64vw, 3rem);
+    color: #FFF8F0;
+    line-height: 0.9;
+    margin-bottom: 1rem;
+}
+
+.middle-footer-section li {
+    list-style-type: none;
+    background-color: transparent;
+}
+
+.middle-footer-section li:not(:first-child) {
+    margin-top: 0.8rem;
+}
+
+.middle-footer-section button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: clamp(1rem, 0.9rem + 0.49vw, 1.375rem);
+    color: #FFF8F0;
+    cursor: pointer;
+}
+
+.middle-footer-section button:hover {
+    color: #C08552;
+}
+
+.right-footer-section h3 {
+    font-family: 'SweetLove', sans-serif;
+    font-size: clamp(1.75rem, 1.42rem + 1.64vw, 3rem);
+    color: #FFF8F0;
+    line-height: 0.9;
+    margin-bottom: 1rem;
+}
+
+.right-footer-section li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.right-footer-section svg {
+    display: flex;
+    width: 40px;  
+    height: 40px;
+}
+
+.right-footer-section li > p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: clamp(1rem, 0.9rem + 0.49vw, 1.375rem);
+    color: #FFF8F0;
+}
+
+.right-footer-section > p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: clamp(1rem, 0.94rem + 0.29vw, 1.125rem);
+    color: #b1b1b1;
+}
+
+.right-footer-section li:nth-of-type(2), .right-footer-section > p {
+    margin-top: 0.8rem;
+}
+
+.bottom-footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #646464;
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
+.bottom-footer-section p:nth-of-type(2) { 
+    color: #b1b1b1;
+}
+
+
+
+
 
 
 
